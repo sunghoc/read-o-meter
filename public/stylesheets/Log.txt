@@ -1,0 +1,34 @@
+m:37 s:34Started the application
+m:37 s:36control panle message id is 0
+m:16 s:34control panle message id is 0
+m:27 s:7control panle message id is 0
+m:5 s:48control panle message id is 0
+m:33 s:40control panle message id is 0
+m:3 s:59control panle message id is 0
+m:31 s:16control panle message id is 0
+m:27 s:55control panle message id is 0
+m:3 s:45control panle message id is 0
+m:52 s:39control panle message id is 0
+m:5 s:13control panle message id is 0
+m:32 s:25control panle message id is 0
+m:37 s:27control panle message id is 0
+m:37 s:19control panle message id is 0
+m:22 s:50control panle message id is 0
+m:18 s:25message id is 1, message position is 170
+m:18 s:25normal state message id is 1, message position is 6
+m:18 s:25SlidebarState
+m:18 s:28your slidebar index is 5
+m:18 s:28message id is 2, message position is 170
+m:18 s:28NormalState
+m:7 s:47control panle message id is 0
+m:33 s:25control panle message id is 0
+m:53 s:14control panle message id is 0
+m:27 s:7control panle message id is 0
+m:57 s:0control panle message id is 0
+m:16 s:50control panle message id is 0
+m:10 s:45control panle message id is 0
+m:10 s:12control panle message id is 0
+m:21 s:17control panle message id is 0
+m:10 s:47control panle message id is 0
+m:13 s:48control panle message id is 0
+m:57 s:36control panle message id is 0
