@@ -2,12 +2,15 @@
 #
 # Table name: users
 #
-#  id         :integer         not null, primary key
-#  name       :string(255)
-#  email      :string(255)
-#  created_at :datetime
-#  updated_at :datetime
+#  id                 :integer         not null, primary key
+#  name               :string(255)
+#  email              :string(255)
+#  created_at         :datetime
+#  updated_at         :datetime
+#  encrypted_password :string(255)
+#  salt               :string(255)
 #
+
 require 'digest'
 
 class User < ActiveRecord::Base
@@ -52,14 +55,14 @@ class User < ActiveRecord::Base
     end
 
     def encrypt(string)
-      secure_hase("#{salt}--#{string}")
+      secure_hash("#{salt}--#{string}")
     end
 
     def make_salt
-      secure_hase("#{Time.now.utc}--#{password}")
+      secure_hash("#{Time.now.utc}--#{password}")
     end
 
-    def secure_hase(string)
+    def secure_hash(string)
       Digest::SHA2.hexdigest(string)
     end
 end

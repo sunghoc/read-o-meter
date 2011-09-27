@@ -1,0 +1,11 @@
+<table class="book" summary="Book information">
+  <tr>
+    <td class="main">
+      <h1><%= @book.title %></h1>
+      <p>Author: <%= @book.author %></p>
+      <p>Total Pages: <%= @book.total_pages %></p>
+      <p>Read Pages: <%= @book.read_pages %></p>
+      <p>Progress: <%= (@book.read_pages * 100) / @book.total_pages %>%</p>
+    </td>
+  </tr>
+</table>
