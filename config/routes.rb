@@ -1,8 +1,5 @@
 ReadOMeter::Application.routes.draw do
 
-  get "books/new"
-  get "books/show"
-
   resources :books
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]

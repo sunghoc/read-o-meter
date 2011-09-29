@@ -5,6 +5,7 @@
         <%= gravatar_for @user %>
         <%= @user.name %>
       </h1>
+      <%= link_to 'Add new book', newbook_path %>
     </td>
     <td class="sidebar round">
       <strong>Name</strong> <%= @user.name %><br />

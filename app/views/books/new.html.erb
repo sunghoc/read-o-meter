@@ -1,6 +1,6 @@
 <h1>Add new book</h1>
 <%= form_for(@book) do |f| %>
-  <%= render 'shared/new_book_error_messages' %>
+  <%= render 'shared/error_messages', :object => f.object %>
   <div class="field">
     <%= f.label :title %><br />
     <%= f.text_field :title %>
