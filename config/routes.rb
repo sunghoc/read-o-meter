@@ -1,9 +1,12 @@
 ReadOMeter::Application.routes.draw do
 
+  get 'books/index'
+
   resources :books
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
 
+  match '/books',   :to => 'books#index'
   match '/newbook', :to => 'books#new'
   match '/signup',	:to => 'users#new'
   match '/signin',	:to => 'sessions#new'

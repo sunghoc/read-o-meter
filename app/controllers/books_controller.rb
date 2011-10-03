@@ -9,6 +9,11 @@ class BooksController < ApplicationController
     @title = "New book"
   end
 
+  def index
+    @books = Book.all
+    @title = "All books"
+  end
+
   def create
     @book = Book.new(params[:book])
     @book.read_pages = 0
